@@ -1,0 +1,75 @@
+/*CSS for styling for navigation menu*/
+nav{
+    background-color: #e6ca51;
+    color: rgb(33, 201, 231);
+    padding: 10px;
+    margin: 0 red;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a{
+    color:#000080;
+    text-decoration: none;
+}
+nav u li a:hover{
+    background-color: aqua;
+    text-decoration: none;
+}
+section{
+    padding: 20px;
+}
+footer{
+    background-color: #4962a5;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+body ,h1,h2,h3,ul,li{
+    margin: 5;
+    padding: 5;
+}
+h1{
+    background-color: rgb(88, 240, 18);
+    color: rgb(25, 63, 233);
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(241, 241, 241);
+    color: #000000;
+    padding: 10px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    background-color: rgb(240, 145, 174);
+}
+h3{
+    background-color: rgb(127, 238, 205);
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    margin-right: 20px; 
+}
+
+.text {
+    flex: 1; 
+}
+body{
+    background-image: url('img9.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+}
